@@ -7,7 +7,7 @@
   "fps": 30,
   "videoCodec": "h264",
   "audioCodec": "aac",
-  "sizeMB": 390.5,
+  "sizeMB": 390.4,
   "audioPeakDb": -1.4,
   "audioMeanDb": -16.6,
   "narration": "edge",
@@ -97,6 +97,6 @@
     }
   ],
   "warnings": [],
-  "renderedAt": "2026-10-17T06:27:38.427Z",
-  "totalPipelineSec": 2384
+  "renderedAt": "2026-10-17T18:39:13.246Z",
+  "totalPipelineSec": 1904
 }

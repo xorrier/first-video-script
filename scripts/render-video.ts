@@ -5,6 +5,8 @@
  *   npm run video:draft            half-resolution quick render (960×540) for review
  *
  * Flags:  --draft  --force (ignore render cache)  --concurrency=N  --chunk=FRAMES
+ *         --reuse-before=FRAME  keep cached chunks that end before FRAME even though the source changed
+ *                               (use only when your edit cannot affect earlier frames, e.g. end-screen tweaks)
  *
  * The render is split into chunks that are cached by a hash of the source code, so an interrupted
  * run resumes where it stopped and unchanged chunks are never rendered twice.
@@ -30,6 +32,7 @@ const DRAFT = flag('draft');
 const FORCE = flag('force');
 const CONCURRENCY = opt('concurrency', Math.max(1, Math.min(4, Math.floor(os.cpus().length / 2))));
 const CHUNK = opt('chunk', 900);
+const REUSE_BEFORE = opt('reuse-before', 0);
 const SCALE = DRAFT ? 0.5 : 1;
 const CRF = DRAFT ? 26 : 18;
 const SCENE_IDS = ['hook', 'context', 'city', 'change', 'mystery', 'conclusion', 'end'];
@@ -161,6 +164,18 @@ async function main() {
   const ranges: [number, number][] = [];
   for (let a = 0; a < comp.durationInFrames; a += CHUNK) ranges.push([a, Math.min(comp.durationInFrames, a + CHUNK) - 1]);
   const chunkPath = (r: [number, number]) => path.join(OUT.chunks, `c${String(r[0]).padStart(5, '0')}-${r[1]}-${srcHash}.mp4`);
+  if (REUSE_BEFORE > 0 && !FORCE) {
+    for (const r of ranges) {
+      if (r[1] >= REUSE_BEFORE || fs.existsSync(chunkPath(r))) continue;
+      const prefix = `c${String(r[0]).padStart(5, '0')}-${r[1]}-`;
+      const suffix = `-${SCALE}-${CRF}.mp4`;
+      const old = fs.readdirSync(OUT.chunks).find((f) => f.startsWith(prefix) && f.endsWith(suffix) && !f.includes('.part.'));
+      if (old) {
+        fs.renameSync(path.join(OUT.chunks, old), chunkPath(r));
+        log(`chunk ${r[0]}–${r[1]} reused from an earlier source version (--reuse-before=${REUSE_BEFORE})`);
+      }
+    }
+  }
   for (const r of ranges) if (FORCE || !fs.existsSync(chunkPath(r))) framesToRender += r[1] - r[0] + 1;
   // remove stale chunks from earlier source versions
   const wanted = new Set(ranges.map((r) => path.basename(chunkPath(r))));

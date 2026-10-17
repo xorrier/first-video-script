@@ -17,5 +17,5 @@ Accuracy notes: there are no temples, domes, arches or columns in Harappan citie
 ## Generic recipe for future episodes
 > [ONE dominant historical subject], [setting + era-accurate details], dramatic low warm side light, dark negative space on the left third, subject on the right half, cinematic 2D illustrated painting…
 
-## Logo (for exploration only — the official logo is `logo/itihasnama_logo.svg`)
+## Logo (for exploration only — the official logo is `logo/shilalekh_logo.svg`)
 > Minimal flat vector emblem: a rounded terracotta square stamp seal with a thick carved inner border; inside, a single bold parchment-coloured horizontal line like a horizon with a half sun rising behind it; strong silhouette, readable at 32 px, no text, charcoal background.

@@ -1,7 +1,7 @@
 import React from 'react';
 import glyphs from './glyphs.json';
 
-/** Itihasnama brand tokens – keep in sync with branding/BRAND_GUIDE.md */
+/** Shilalekh brand tokens – keep in sync with branding/BRAND_GUIDE.md */
 export const B = {
   charcoal: '#1C1714',
   night: '#120D0A',

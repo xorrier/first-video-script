@@ -2,15 +2,15 @@ import React from 'react';
 import { B, G } from './brand';
 
 /**
- * Itihasnama seal mark: a terracotta Indus-style square seal carrying the Devanagari initial "इ".
+ * Shilalekh seal mark: a terracotta Indus-style square seal – an inscribed stone – carrying the Devanagari initial "श".
  * The letter's headline (shirorekha) runs edge-to-edge as a horizon with a half sun rising
  * behind it – "history's horizon". Coordinates: centred on 0,0, seal is 620×620.
  */
 export const SEAL = 310;
 const INNER = 258;
-const GS = 0.46; // glyph scale (glyph data is at 1000 units)
+const GS = 0.5; // glyph scale (glyph data is at 1000 units)
 const HORIZON = -120; // top of the letter's headline = horizon line
-const HEAD_TOP = -620; // headline top / bottom in font units (Tiro Devanagari Hindi 'इ')
+const HEAD_TOP = -620; // headline top / bottom in font units (Tiro Devanagari Hindi 'श')
 const HEAD_BOTTOM = -545;
 const BASE_Y = HORIZON - HEAD_TOP * GS; // glyph baseline
 const EMBOLDEN = 30; // outline in font units – thickens the calligraphic strokes for small sizes

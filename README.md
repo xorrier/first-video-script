@@ -20,7 +20,7 @@ npm run video:draft    # 960×540 quick preview
 npm run studio         # interactive Remotion Studio preview
 ```
 
-Flags: `--force` (ignore render cache), `--concurrency=N`, `--chunk=FRAMES`.
+Flags: `--force` (ignore render cache), `--concurrency=N`, `--chunk=FRAMES`, `--reuse-before=FRAME` (reuse cached chunks ending before FRAME even if `src/` changed; use only when your edits affect later frames, e.g. the end screen).
 
 The pipeline (`scripts/render-video.ts`) does everything in one go:
 

@@ -70,9 +70,9 @@ export function textToPath(fontFile: string, text: string, size: number, opts: {
 
 export function buildBrandGlyphs() {
   const out = {
-    logoGlyph: textToPath(FONTS.tiroDeva, 'इ', 1000),
-    wordmarkDeva: textToPath(FONTS.tiroDeva, 'इतिहासनामा', 1000),
-    wordmarkLatin: textToPath(FONTS.tiroLatin, 'ITIHASNAMA', 1000, { tracking: 0.32 }),
+    logoGlyph: textToPath(FONTS.tiroDeva, 'श', 1000),
+    wordmarkDeva: textToPath(FONTS.tiroDeva, 'शिलालेख', 1000),
+    wordmarkLatin: textToPath(FONTS.tiroLatin, 'SHILALEKH', 1000, { tracking: 0.32 }),
     tagline: textToPath(FONTS.notoDeva600, 'इतिहास की अनसुनी कहानियाँ', 1000, { space: 0.3 }),
   };
   const file = path.join(ROOT, 'src', 'branding', 'glyphs.json');

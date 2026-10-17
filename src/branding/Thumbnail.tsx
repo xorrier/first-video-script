@@ -6,7 +6,7 @@ import { SealMark, SEAL } from './Logo';
 import { FilmLook } from '../components/Overlay';
 
 /**
- * Itihasnama thumbnail system (1280×720).
+ * Shilalekh thumbnail system (1280×720).
  *  - Art: any 1920×1080 scene (scaled ×2/3), dominant subject on the RIGHT half.
  *  - Left 55%: darkened by the brand gradient, carries 1–2 headline lines (3–5 words total).
  *  - One highlighted line on a terracotta block, seal badge + kicker top-left.

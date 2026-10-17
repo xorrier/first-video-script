@@ -1,12 +1,12 @@
-# Itihasnama — Brand Guide
+# Shilalekh — Brand Guide
 
-**इतिहासनामा · इतिहास की अनसुनी कहानियाँ**
+**शिलालेख · इतिहास की अनसुनी कहानियाँ**
 
 A faceless Hindi history documentary channel. The look is a warm palette of earth, fire and old paper, built from flat 2D silhouettes and dusk light. The colours come from an excavated brick wall at sunset.
 
 ## 1. Logo — the seal mark
 
-The logo is a terracotta square seal, a nod to the stamp seals of the Indus cities, carrying the Devanagari initial **इ** (for इतिहास, "history"). The letter's headline (shirorekha) runs edge to edge as a horizon, with a half sun rising behind it: *history rising over the horizon*.
+The logo is a terracotta square seal, a nod to the stamp seals of the Indus cities, carrying the Devanagari initial **श** (for शिलालेख, "stone inscription"). The seal reads as an inscribed stone. The letter's headline (shirorekha) runs edge to edge as a horizon, with a half sun rising behind it: *history rising over the horizon*.
 
 | Rule | Value |
 |---|---|
@@ -16,7 +16,7 @@ The logo is a terracotta square seal, a nod to the stamp seals of the Indus citi
 | Avatar crop | YouTube crops to a circle, so the seal is sized to fit inside it |
 | Don't | recolour the seal, add outlines/glows, rotate, stretch, place text inside, or use it on bright busy backgrounds |
 
-**Wordmark lockup** (banner, end screens): seal, then **इतिहासनामा** in Tiro Devanagari Hindi, then a small tracked **ITIHASNAMA**, then the tagline in gold. The Latin line is optional.
+**Wordmark lockup** (banner, end screens): seal, then **शिलालेख** in Tiro Devanagari Hindi, then a small tracked **SHILALEKH**, then the tagline in gold. The Latin line is optional.
 
 ## 2. Colour palette
 

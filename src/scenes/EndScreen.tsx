@@ -5,7 +5,7 @@ import { Parchment } from '../components/Overlay';
 import { Dust } from '../components/Particles';
 import { ArtDefs } from '../components/art/Buildings';
 import { CityScape } from '../components/art/CityScape';
-import { SIGNS } from '../components/art/Props';
+import { SealMark } from '../branding/Logo';
 import script from '../data/script.json';
 import { C, FONT_SANS, FONT_SERIF } from '../theme';
 import { easeOut, prog } from '../utils/animation';
@@ -52,15 +52,8 @@ export const EndScreen: React.FC = () => {
 
       {/* brand */}
       <div style={{ position: 'absolute', left: 1080, top: 250, width: 700, display: 'flex', flexDirection: 'column', alignItems: 'center', opacity: brand, transform: `translateY(${(1 - brand) * 30}px)` }}>
-        <svg width={200} height={200} viewBox="-100 -100 200 200">
-          <circle r={92} fill={C.brickDark} />
-          <circle r={80} fill="none" stroke={C.goldLight} strokeWidth={3} opacity={0.7} />
-          {[0, 1, 2].map((i) => (
-            <path key={i} d={`M-52,${-22 + i * 22} Q0,${-32 + i * 22} 52,${-22 + i * 22}`} stroke={C.goldLight} strokeWidth={4} fill="none" opacity={0.35 + i * 0.25} />
-          ))}
-          <g transform="translate(0 30) scale(1.1)">
-            <path d={SIGNS[3]} stroke={C.cream} strokeWidth={3.2} fill="none" strokeLinecap="round" />
-          </g>
+        <svg width={210} height={210} viewBox="-350 -340 700 700">
+          <SealMark id="endseal" />
         </svg>
         <div style={{ fontFamily: FONT_SERIF, fontSize: 76, color: C.ink, marginTop: 18, lineHeight: 1.2 }}>{META.channelName}</div>
         <div style={{ fontFamily: FONT_SANS, fontWeight: 600, fontSize: 32, color: C.brown, marginTop: 6 }}>{META.channelTagline}</div>

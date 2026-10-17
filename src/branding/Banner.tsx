@@ -199,19 +199,19 @@ const BrickEarth: React.FC = () => {
   );
 };
 
-/** Seal + "इतिहासनामा" + ITIHASNAMA + tagline, laid out for the safe area. */
+/** Seal + "शिलालेख" + SHILALEKH + tagline, laid out for the safe area. */
 export const BannerLockup: React.FC<{ id: string }> = ({ id }) => {
   const sealPx = 286;
   const gap = 58;
-  const devaSize = 172;
+  const devaSize = 200;
   const latinSize = 34;
   const tagSize = 56;
   const textW = Math.max(vWidth(G.wordmarkDeva, devaSize), vWidth(G.tagline, tagSize));
   const total = sealPx + gap + textW;
   const x0 = SAFE.x + (SAFE.w - total) / 2;
   const tx = x0 + sealPx + gap;
-  const devaBase = 692;
-  const latinBase = devaBase + 60;
+  const devaBase = 714;
+  const latinBase = devaBase + 58;
   const tagBase = latinBase + 80;
   const latinW = vWidth(G.wordmarkLatin, latinSize);
   const s = sealPx / (SEAL * 2);

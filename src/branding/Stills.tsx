@@ -78,8 +78,8 @@ export const PaletteTypeSheet: React.FC = () => (
     <div style={{ display: 'flex', alignItems: 'center', gap: 28 }}>
       <LogoSvg size={110} background={false} id="ps" />
       <div>
-        <div style={{ fontFamily: FONT_SERIF, fontSize: 64, lineHeight: 1.3 }}>इतिहासनामा — ब्रांड गाइड</div>
-        <div style={{ fontSize: 24, color: B.parchmentDark, letterSpacing: 4 }}>ITIHASNAMA · COLOUR & TYPE</div>
+        <div style={{ fontFamily: FONT_SERIF, fontSize: 64, lineHeight: 1.3 }}>शिलालेख — ब्रांड गाइड</div>
+        <div style={{ fontSize: 24, color: B.parchmentDark, letterSpacing: 4 }}>SHILALEKH · COLOUR & TYPE</div>
       </div>
     </div>
     <div style={{ display: 'grid', gridTemplateColumns: 'repeat(6, 1fr)', gap: 18, marginTop: 44 }}>
@@ -97,7 +97,7 @@ export const PaletteTypeSheet: React.FC = () => (
     <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 40, marginTop: 46 }}>
       <div>
         <div style={{ fontFamily: 'monospace', fontSize: 18, color: B.gold }}>DISPLAY / WORDMARK — Tiro Devanagari Hindi 400</div>
-        <div style={{ fontFamily: FONT_SERIF, fontSize: 92, lineHeight: 1.35 }}>इतिहासनामा</div>
+        <div style={{ fontFamily: FONT_SERIF, fontSize: 92, lineHeight: 1.35 }}>शिलालेख</div>
         <div style={{ fontFamily: 'monospace', fontSize: 18, color: B.gold, marginTop: 16 }}>HEADLINES — Noto Sans Devanagari 700</div>
         <div style={{ fontWeight: 700, fontSize: 64, lineHeight: 1.35, color: B.cream }}>
           सभ्यता का <span style={{ background: B.terracotta, padding: '0 14px 6px', borderRadius: 8 }}>अंत कैसे?</span>

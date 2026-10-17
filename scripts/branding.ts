@@ -1,5 +1,5 @@
 /**
- * Render the Itihasnama brand kit into branding/.
+ * Render the Shilalekh brand kit into branding/.
  *   npm run branding                    all assets
  *   npm run branding -- BrandLogo       only selected still ids
  */
@@ -17,11 +17,11 @@ const OUT = path.join(ROOT, 'branding');
 
 type Job = { id: string; out: string; format: 'png' | 'jpeg'; quality?: number; maxMB?: number };
 export const JOBS: Job[] = [
-  { id: 'BrandLogo', out: 'logo/itihasnama_logo_800.png', format: 'png' },
-  { id: 'BrandLogoTransparent', out: 'logo/itihasnama_logo_transparent_1024.png', format: 'png' },
-  { id: 'BrandWatermark', out: 'logo/itihasnama_watermark_150.png', format: 'png' },
+  { id: 'BrandLogo', out: 'logo/shilalekh_logo_800.png', format: 'png' },
+  { id: 'BrandLogoTransparent', out: 'logo/shilalekh_logo_transparent_1024.png', format: 'png' },
+  { id: 'BrandWatermark', out: 'logo/shilalekh_watermark_150.png', format: 'png' },
   { id: 'BrandLogoSizeTest', out: 'logo/logo_size_test.png', format: 'png' },
-  { id: 'BrandBanner', out: 'banner/itihasnama_banner_2560x1440.jpg', format: 'jpeg', quality: 92, maxMB: 6 },
+  { id: 'BrandBanner', out: 'banner/shilalekh_banner_2560x1440.jpg', format: 'jpeg', quality: 92, maxMB: 6 },
   { id: 'BrandBannerSafeArea', out: 'banner/banner_safe_area_guide.jpg', format: 'jpeg', quality: 85 },
   ...THUMBS.map((t): Job => ({ id: t.id, out: t.file, format: 'jpeg', quality: 90, maxMB: 2 })),
   { id: 'ThumbTemplateBlank', out: 'thumbnails/thumbnail_template_blank.png', format: 'png' },
@@ -35,9 +35,9 @@ async function exportSvgs() {
   const { LogoSvg } = await import('../src/branding/Logo');
   const { BannerSvg } = await import('../src/branding/Banner');
   const files: [string, React.ReactElement][] = [
-    ['logo/itihasnama_logo.svg', React.createElement(LogoSvg, { size: 1000 })],
-    ['logo/itihasnama_logo_transparent.svg', React.createElement(LogoSvg, { size: 1000, background: false, id: 'lt' })],
-    ['banner/itihasnama_banner.svg', React.createElement(BannerSvg, { id: 'bn' })],
+    ['logo/shilalekh_logo.svg', React.createElement(LogoSvg, { size: 1000 })],
+    ['logo/shilalekh_logo_transparent.svg', React.createElement(LogoSvg, { size: 1000, background: false, id: 'lt' })],
+    ['banner/shilalekh_banner.svg', React.createElement(BannerSvg, { id: 'bn' })],
   ];
   for (const [rel, el] of files) {
     const f = path.join(OUT, rel);

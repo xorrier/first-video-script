@@ -1,4 +1,4 @@
-# Itihasnama brand kit
+# Shilalekh brand kit
 
 Every asset here is generated from code: React/SVG components rendered by Remotion's headless Chrome. Brand text in the SVG exports is converted to vector paths with fontkit.
 
@@ -6,13 +6,13 @@ Every asset here is generated from code: React/SVG components rendered by Remoti
 
 | File | Size | Use |
 |---|---|---|
-| `logo/itihasnama_logo_800.png` | 800×800 | **YouTube profile picture** |
-| `logo/itihasnama_logo.svg` | vector | Master logo (charcoal background) |
-| `logo/itihasnama_logo_transparent.svg` / `_1024.png` | vector / 1024² | Seal on transparency (overlays, merch, end screens) |
-| `logo/itihasnama_watermark_150.png` | 150×150 | **YouTube video watermark** (Customisation → Branding) |
+| `logo/shilalekh_logo_800.png` | 800×800 | **YouTube profile picture** |
+| `logo/shilalekh_logo.svg` | vector | Master logo (charcoal background) |
+| `logo/shilalekh_logo_transparent.svg` / `_1024.png` | vector / 1024² | Seal on transparency (overlays, merch, end screens) |
+| `logo/shilalekh_watermark_150.png` | 150×150 | **YouTube video watermark** (Customisation → Branding) |
 | `logo/logo_size_test.png` | — | Circle-crop legibility test, 400 → 32 px |
-| `banner/itihasnama_banner_2560x1440.jpg` | 2560×1440, 0.6 MB | **YouTube banner** |
-| `banner/itihasnama_banner.svg` | vector | Editable master banner |
+| `banner/shilalekh_banner_2560x1440.jpg` | 2560×1440, 0.6 MB | **YouTube banner** |
+| `banner/shilalekh_banner.svg` | vector | Editable master banner |
 | `banner/banner_safe_area_guide.jpg` | — | Banner with TV/desktop/tablet/mobile crop zones |
 | `thumbnails/ep01_indus_valley_thumbnail.jpg` | 1280×720 | **Ep01 thumbnail** — "सभ्यता का / अंत कैसे?" |
 | `thumbnails/ep01_indus_valley_thumbnail_alt.jpg` | 1280×720 | Ep01 A/B variant — "शहर ख़ाली / क्यों हुए?" |
