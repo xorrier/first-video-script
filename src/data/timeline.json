@@ -1,0 +1,453 @@
+{
+  "fps": 30,
+  "width": 1920,
+  "height": 1080,
+  "totalSec": 303.43333333333334,
+  "durationInFrames": 9103,
+  "scenes": [
+    {
+      "id": "hook",
+      "title": "हुक",
+      "mood": "dusk",
+      "start": 0,
+      "end": 29,
+      "from": 0,
+      "durationInFrames": 870
+    },
+    {
+      "id": "context",
+      "title": "ऐतिहासिक पृष्ठभूमि",
+      "mood": "map",
+      "start": 29,
+      "end": 78.63333333333334,
+      "from": 870,
+      "durationInFrames": 1489
+    },
+    {
+      "id": "city",
+      "title": "सभ्यता का शिखर",
+      "mood": "day",
+      "start": 78.63333333333334,
+      "end": 137.8,
+      "from": 2359,
+      "durationInFrames": 1775
+    },
+    {
+      "id": "change",
+      "title": "बदलाव के संकेत",
+      "mood": "change",
+      "start": 137.8,
+      "end": 197.23333333333332,
+      "from": 4134,
+      "durationInFrames": 1783
+    },
+    {
+      "id": "mystery",
+      "title": "रहस्य",
+      "mood": "night",
+      "start": 197.23333333333332,
+      "end": 260.76666666666665,
+      "from": 5917,
+      "durationInFrames": 1906
+    },
+    {
+      "id": "conclusion",
+      "title": "निष्कर्ष",
+      "mood": "dawn",
+      "start": 260.76666666666665,
+      "end": 288.6333333333333,
+      "from": 7823,
+      "durationInFrames": 836
+    },
+    {
+      "id": "end",
+      "title": "एंड स्क्रीन",
+      "mood": "end",
+      "start": 288.6333333333333,
+      "end": 303.43333333333334,
+      "from": 8659,
+      "durationInFrames": 444
+    }
+  ],
+  "lines": [
+    {
+      "id": "h1",
+      "scene": "hook",
+      "clipStart": 1.5995,
+      "clipDur": 5.112,
+      "start": 1.8,
+      "end": 5.838979166666666,
+      "source": "edge-tts"
+    },
+    {
+      "id": "h2",
+      "scene": "hook",
+      "clipStart": 6.5915833333333325,
+      "clipDur": 6.504,
+      "start": 6.788979166666666,
+      "end": 12.257916666666667,
+      "source": "edge-tts"
+    },
+    {
+      "id": "h3",
+      "scene": "hook",
+      "clipStart": 13.200458333333332,
+      "clipDur": 4.8,
+      "start": 13.407916666666665,
+      "end": 17.063645833333332,
+      "source": "edge-tts"
+    },
+    {
+      "id": "h4",
+      "scene": "hook",
+      "clipStart": 17.926479166666667,
+      "clipDur": 7.752,
+      "start": 18.113645833333333,
+      "end": 24.812625,
+      "source": "edge-tts"
+    },
+    {
+      "id": "c1",
+      "scene": "context",
+      "clipStart": 30.006958333333333,
+      "clipDur": 6.384,
+      "start": 30.2,
+      "end": 35.17185416666666,
+      "source": "edge-tts"
+    },
+    {
+      "id": "c2",
+      "scene": "context",
+      "clipStart": 35.33177083333333,
+      "clipDur": 9.072,
+      "start": 35.521854166666664,
+      "end": 43.1551875,
+      "source": "edge-tts"
+    },
+    {
+      "id": "c3",
+      "scene": "context",
+      "clipStart": 43.711166666666664,
+      "clipDur": 9.864,
+      "start": 43.9051875,
+      "end": 52.66679166666667,
+      "source": "edge-tts"
+    },
+    {
+      "id": "c4",
+      "scene": "context",
+      "clipStart": 52.80914583333333,
+      "clipDur": 4.92,
+      "start": 53.01679166666666,
+      "end": 56.346,
+      "source": "edge-tts"
+    },
+    {
+      "id": "c5",
+      "scene": "context",
+      "clipStart": 56.4769375,
+      "clipDur": 5.568,
+      "start": 56.696,
+      "end": 61.22691666666667,
+      "source": "edge-tts"
+    },
+    {
+      "id": "c6",
+      "scene": "context",
+      "clipStart": 61.895354166666664,
+      "clipDur": 7.488,
+      "start": 62.07691666666666,
+      "end": 68.47672916666666,
+      "source": "edge-tts"
+    },
+    {
+      "id": "c7",
+      "scene": "context",
+      "clipStart": 68.63845833333333,
+      "clipDur": 5.4,
+      "start": 68.82672916666667,
+      "end": 73.13470833333334,
+      "source": "edge-tts"
+    },
+    {
+      "id": "c8",
+      "scene": "context",
+      "clipStart": 73.29179166666667,
+      "clipDur": 5.592,
+      "start": 73.48470833333333,
+      "end": 77.63833333333334,
+      "source": "edge-tts"
+    },
+    {
+      "id": "l1",
+      "scene": "city",
+      "clipStart": 79.24604166666667,
+      "clipDur": 3.408,
+      "start": 79.43333333333334,
+      "end": 81.3224375,
+      "source": "edge-tts"
+    },
+    {
+      "id": "l2",
+      "scene": "city",
+      "clipStart": 81.77733333333333,
+      "clipDur": 7.176,
+      "start": 81.9724375,
+      "end": 88.04914583333333,
+      "source": "edge-tts"
+    },
+    {
+      "id": "l3",
+      "scene": "city",
+      "clipStart": 88.20983333333334,
+      "clipDur": 7.56,
+      "start": 88.39914583333334,
+      "end": 94.86022916666667,
+      "source": "edge-tts"
+    },
+    {
+      "id": "l4",
+      "scene": "city",
+      "clipStart": 95.41295833333334,
+      "clipDur": 7.728,
+      "start": 95.61022916666667,
+      "end": 102.26989583333334,
+      "source": "edge-tts"
+    },
+    {
+      "id": "l5",
+      "scene": "city",
+      "clipStart": 102.8034375,
+      "clipDur": 6.024,
+      "start": 103.01989583333334,
+      "end": 107.95710416666667,
+      "source": "edge-tts"
+    },
+    {
+      "id": "l6",
+      "scene": "city",
+      "clipStart": 108.51350000000001,
+      "clipDur": 6.36,
+      "start": 108.70710416666667,
+      "end": 113.9879375,
+      "source": "edge-tts"
+    },
+    {
+      "id": "l7",
+      "scene": "city",
+      "clipStart": 114.13577083333332,
+      "clipDur": 6.384,
+      "start": 114.3379375,
+      "end": 119.61360416666666,
+      "source": "edge-tts"
+    },
+    {
+      "id": "l8",
+      "scene": "city",
+      "clipStart": 119.77199999999999,
+      "clipDur": 8.808,
+      "start": 119.96360416666666,
+      "end": 127.27712499999998,
+      "source": "edge-tts"
+    },
+    {
+      "id": "l9",
+      "scene": "city",
+      "clipStart": 127.84347916666665,
+      "clipDur": 10.2,
+      "start": 128.02712499999998,
+      "end": 136.78449999999998,
+      "source": "edge-tts"
+    },
+    {
+      "id": "t1",
+      "scene": "change",
+      "clipStart": 138.61522916666667,
+      "clipDur": 6.216,
+      "start": 138.8,
+      "end": 143.5709791666667,
+      "source": "edge-tts"
+    },
+    {
+      "id": "t2",
+      "scene": "change",
+      "clipStart": 144.12502083333337,
+      "clipDur": 11.76,
+      "start": 144.3209791666667,
+      "end": 154.614875,
+      "source": "edge-tts"
+    },
+    {
+      "id": "t3",
+      "scene": "change",
+      "clipStart": 154.77302083333336,
+      "clipDur": 7.272,
+      "start": 154.96487500000003,
+      "end": 161.14902083333337,
+      "source": "edge-tts"
+    },
+    {
+      "id": "t4",
+      "scene": "change",
+      "clipStart": 161.80758333333335,
+      "clipDur": 9.96,
+      "start": 161.99902083333336,
+      "end": 170.8731041666667,
+      "source": "edge-tts"
+    },
+    {
+      "id": "t5",
+      "scene": "change",
+      "clipStart": 171.3304791666667,
+      "clipDur": 11.352,
+      "start": 171.52310416666668,
+      "end": 181.38987500000002,
+      "source": "edge-tts"
+    },
+    {
+      "id": "t6",
+      "scene": "change",
+      "clipStart": 181.84718750000002,
+      "clipDur": 9.792,
+      "start": 182.03987500000002,
+      "end": 190.7668541666667,
+      "source": "edge-tts"
+    },
+    {
+      "id": "t7",
+      "scene": "change",
+      "clipStart": 191.2197916666667,
+      "clipDur": 5.928,
+      "start": 191.4168541666667,
+      "end": 196.2447291666667,
+      "source": "edge-tts"
+    },
+    {
+      "id": "m1",
+      "scene": "mystery",
+      "clipStart": 198.24739583333331,
+      "clipDur": 2.64,
+      "start": 198.4333333333333,
+      "end": 200.04720833333332,
+      "source": "edge-tts"
+    },
+    {
+      "id": "m2",
+      "scene": "mystery",
+      "clipStart": 200.80691666666664,
+      "clipDur": 7.608,
+      "start": 200.9972083333333,
+      "end": 207.5420833333333,
+      "source": "edge-tts"
+    },
+    {
+      "id": "m3",
+      "scene": "mystery",
+      "clipStart": 207.7030833333333,
+      "clipDur": 7.392,
+      "start": 207.8920833333333,
+      "end": 214.21060416666663,
+      "source": "edge-tts"
+    },
+    {
+      "id": "m4",
+      "scene": "mystery",
+      "clipStart": 214.37312499999996,
+      "clipDur": 9.648,
+      "start": 214.56060416666662,
+      "end": 223.16749999999996,
+      "source": "edge-tts"
+    },
+    {
+      "id": "m5",
+      "scene": "mystery",
+      "clipStart": 223.82520833333328,
+      "clipDur": 4.968,
+      "start": 224.01749999999996,
+      "end": 227.91262499999996,
+      "source": "edge-tts"
+    },
+    {
+      "id": "m6",
+      "scene": "mystery",
+      "clipStart": 228.0685833333333,
+      "clipDur": 8.976,
+      "start": 228.26262499999996,
+      "end": 236.1830416666666,
+      "source": "edge-tts"
+    },
+    {
+      "id": "m7",
+      "scene": "mystery",
+      "clipStart": 236.84266666666664,
+      "clipDur": 7.032,
+      "start": 237.03304166666663,
+      "end": 243.0373333333333,
+      "source": "edge-tts"
+    },
+    {
+      "id": "m8",
+      "scene": "mystery",
+      "clipStart": 243.20412499999995,
+      "clipDur": 7.2,
+      "start": 243.3873333333333,
+      "end": 249.11031249999996,
+      "source": "edge-tts"
+    },
+    {
+      "id": "m9",
+      "scene": "mystery",
+      "clipStart": 249.8737083333333,
+      "clipDur": 10.8,
+      "start": 250.06031249999995,
+      "end": 259.7810833333333,
+      "source": "edge-tts"
+    },
+    {
+      "id": "e1",
+      "scene": "conclusion",
+      "clipStart": 261.57262499999996,
+      "clipDur": 4.032,
+      "start": 261.76666666666665,
+      "end": 264.73429166666665,
+      "source": "edge-tts"
+    },
+    {
+      "id": "e2",
+      "scene": "conclusion",
+      "clipStart": 265.289875,
+      "clipDur": 6.504,
+      "start": 265.48429166666665,
+      "end": 270.93031249999996,
+      "source": "edge-tts"
+    },
+    {
+      "id": "e3",
+      "scene": "conclusion",
+      "clipStart": 271.59554166666663,
+      "clipDur": 10.176,
+      "start": 271.7803125,
+      "end": 280.5008958333333,
+      "source": "edge-tts"
+    },
+    {
+      "id": "e4",
+      "scene": "conclusion",
+      "clipStart": 281.44987499999996,
+      "clipDur": 6.312,
+      "start": 281.6508958333333,
+      "end": 286.4376458333333,
+      "source": "edge-tts"
+    },
+    {
+      "id": "x1",
+      "scene": "end",
+      "clipStart": 289.43829166666666,
+      "clipDur": 4.872,
+      "start": 289.6333333333333,
+      "end": 293.43075,
+      "source": "edge-tts"
+    }
+  ],
+  "hasNarration": true
+}

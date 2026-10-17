@@ -1,0 +1,78 @@
+
+> history-documentary@1.0.0 video
+> tsx scripts/render-video.ts
+
+[1mIndus Valley documentary – FULL (1920×1080) render[0m
+
+[36m[1] Checking dependencies[0m
+   node v20.18.0, 4 CPUs, 0.8 GB free RAM
+   ffmpeg: C:\Users\AMRIT\history-documentary\node_modules\ffmpeg-static\ffmpeg.exe
+   ffprobe: C:\Users\AMRIT\history-documentary\node_modules\ffprobe-static\bin\win32\x64\ffprobe.exe
+   edge-tts available
+
+[36m[2] Validating narration script[0m
+   7 scenes, 42 lines, ~671 words
+
+[36m[3] Generating procedural assets (map geometry, textures, fonts)[0m
+   geo.json written (land path 101 KB)
+   textures ready (grain tiles, paper)
+   fonts copied (8 files, SIL OFL 1.1)
+
+[36m[4] Generating narration[0m
+   narration cache is up to date
+
+[36m[5] Building timeline and subtitles[0m
+   hook          0m00s →   0m29s
+   context       0m29s →   1m19s
+   city          1m19s →   2m18s
+   change        2m18s →   3m17s
+   mystery       3m17s →   4m21s
+   conclusion    4m21s →   4m49s
+   end           4m49s →   5m03s
+   total 303.4s (9103 frames), 110 subtitle cues
+   SRT → output\subtitles_hi.srt
+
+[36m[6] Synthesising music and sound effects[0m
+   music.wav + sfx.wav written (304.4s)
+
+[36m[7] Bundling Remotion project and testing Hindi fonts[0m
+   font test still → output\font_test.png
+
+[36m[8] Rendering 9103 frames (2 parallel, chunks of 900)[0m
+   chunk 0–899 cached
+   chunk 900–1799 cached
+   chunk 1800–2699 cached
+   chunk 2700–3599 cached
+   chunk 3600–4499 cached
+   chunk 4500–5399 cached
+   chunk 5400–6299 cached
+   chunk 6300–7199 cached
+   chunk 7200–8099 cached
+   chunk 8100–8999 cached
+   chunk 9000–9102 cached
+   silent video → .cache\video_silent.mp4 (0m14s)
+
+[36m[9] Mixing narration, music and SFX; encoding final MP4[0m
+   final → output\indus_valley_documentary_hi.mp4
+
+[36m[10] Validating output[0m
+   [32m✔[0m video codec H.264                h264
+   [32m✔[0m resolution 1920×1080             1920×1080
+   [32m✔[0m frame rate 30                    30.000
+   [32m✔[0m duration matches timeline        303.43s
+   [32m✔[0m audio stream AAC                 aac
+   [32m✔[0m pixel format yuv420p             yuv420p
+   [32m✔[0m decodes without errors           exit 0
+   [32m✔[0m no blank (black) segments ≥2s    none
+   [32m✔[0m audio not clipping               peak -1.4 dB, mean -16.6 dB
+
+[36m[11] Contact sheet[0m
+   contact sheet → output\contact_sheet.jpg (one frame every 12.1s)
+
+[36m[12] Done[0m
+   video        C:\Users\AMRIT\history-documentary\output\indus_valley_documentary_hi.mp4
+   subtitles    C:\Users\AMRIT\history-documentary\output\subtitles_hi.srt
+   contact      C:\Users\AMRIT\history-documentary\output\contact_sheet.jpg
+   font test    C:\Users\AMRIT\history-documentary\output\font_test.png
+   report       C:\Users\AMRIT\history-documentary\output\render_report.json
+   303.4s · 1920×1080 · 30 fps · 390.5 MB · pipeline 39m44s

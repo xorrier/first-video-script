@@ -1,0 +1,102 @@
+{
+  "file": "output\\indus_valley_documentary_hi.mp4",
+  "draft": false,
+  "durationSec": 303.43,
+  "width": 1920,
+  "height": 1080,
+  "fps": 30,
+  "videoCodec": "h264",
+  "audioCodec": "aac",
+  "sizeMB": 390.5,
+  "audioPeakDb": -1.4,
+  "audioMeanDb": -16.6,
+  "narration": "edge",
+  "scenes": [
+    {
+      "id": "hook",
+      "start": 0,
+      "end": 29
+    },
+    {
+      "id": "context",
+      "start": 29,
+      "end": 78.63333333333334
+    },
+    {
+      "id": "city",
+      "start": 78.63333333333334,
+      "end": 137.8
+    },
+    {
+      "id": "change",
+      "start": 137.8,
+      "end": 197.23333333333332
+    },
+    {
+      "id": "mystery",
+      "start": 197.23333333333332,
+      "end": 260.76666666666665
+    },
+    {
+      "id": "conclusion",
+      "start": 260.76666666666665,
+      "end": 288.6333333333333
+    },
+    {
+      "id": "end",
+      "start": 288.6333333333333,
+      "end": 303.43333333333334
+    }
+  ],
+  "subtitleCues": 110,
+  "checks": [
+    {
+      "name": "video codec H.264",
+      "pass": true,
+      "detail": "h264"
+    },
+    {
+      "name": "resolution 1920×1080",
+      "pass": true,
+      "detail": "1920×1080"
+    },
+    {
+      "name": "frame rate 30",
+      "pass": true,
+      "detail": "30.000"
+    },
+    {
+      "name": "duration matches timeline",
+      "pass": true,
+      "detail": "303.43s"
+    },
+    {
+      "name": "audio stream AAC",
+      "pass": true,
+      "detail": "aac"
+    },
+    {
+      "name": "pixel format yuv420p",
+      "pass": true,
+      "detail": "yuv420p"
+    },
+    {
+      "name": "decodes without errors",
+      "pass": true,
+      "detail": "exit 0"
+    },
+    {
+      "name": "no blank (black) segments ≥2s",
+      "pass": true,
+      "detail": "none"
+    },
+    {
+      "name": "audio not clipping",
+      "pass": true,
+      "detail": "peak -1.4 dB, mean -16.6 dB"
+    }
+  ],
+  "warnings": [],
+  "renderedAt": "2026-10-17T06:27:38.427Z",
+  "totalPipelineSec": 2384
+}
